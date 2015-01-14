@@ -2,7 +2,7 @@
 #   Hubot WeirdMeetup Blog Reader
 #
 # Commands:
-#   hubot blog
+#   hubot news
 #
 # Author:
 #   @golbin
@@ -23,7 +23,7 @@ CACHED_ENTRIES = []
 module.exports = (robot) ->
   reader = new RSSReader robot
 
-  robot.respond /blog/i, (msg) ->
+  robot.respond /news/i, (msg) ->
     if Date.now() > CACHED_TIME + CACHE_EXPIRES
       reader.fetch(NEWS_FEED_URL)
       .then (entries) ->
