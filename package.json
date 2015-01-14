@@ -1,0 +1,45 @@
+{
+  "name": "hubot-google-news-reader",
+  "version": "0.1.0",
+  "description": "Hubot Google News Reader",
+  "main": "hubot-google-news.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bluebird": "^2.3",
+    "feedparser": "*",
+    "hubot-scripts": "*",
+    "lodash": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+    "coffee-errors": "*",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.21.0",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-simple-mocha": "*",
+    "grunt-coffeelint": "*",
+    "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/golbin/hubot-google-news-reader.git"
+  },
+  "keywords": [
+    "hubot",
+    "google",
+    "news",
+    "hubot-scripts"
+  ],
+  "author": "golbin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/golbin/hubot-google-news-reader/issues"
+  },
+  "homepage": "https://github.com/golbin/hubot-google-news-reader"
+}
