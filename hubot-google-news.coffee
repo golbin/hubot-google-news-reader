@@ -29,11 +29,11 @@ module.exports = (robot) ->
       .then (entries) ->
         CACHED_ENTRIES = entries
         CACHED_TIME = Date.now()
-        send msg
+        @send msg
       .catch (err) ->
         msg.send "뉴스를 가져오지 못했습니다."
     else
-      send msg
+      @send msg
 
   send: (msg) ->
     for entry in CACHED_ENTRIES.splice(0,5)
