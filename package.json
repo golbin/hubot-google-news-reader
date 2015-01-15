@@ -1,6 +1,6 @@
 {
   "name": "hubot-google-news-reader",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Hubot Google News Reader",
   "main": "hubot-google-news.coffee",
   "scripts": {
